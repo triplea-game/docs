@@ -26,18 +26,6 @@ engage, where to communicate
 **infrastructure**: relates to software deployment and operations, eg: bot setup, server setup, checking logs, checking
 and restarting services
 
-## Documentation Types
-
-**tutorial / getting-started**: explanatory instructions intended to teach.
-Look here when getting started.
-
-**how-to**: cut and dry step-by-step instructions on how to do something
-
-**reference**: description of a topic or a process (EG: encyclopedia entry)
-
-**background**: explanation of how something came to be (EG: design or a decision doc)
-
-
 ## Contributors
 <a href="https://github.com/triplea-game/docs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=triplea-game/docs" />
