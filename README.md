@@ -2,7 +2,7 @@
 
 This repository contains TripleA project documentation.
 
-- ***[How to Contribute to TripleA](/docs/contribute.md)***
+- ***[How to Contribute to TripleA](/contribute.md)***
 
 # Documentation
 
