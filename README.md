@@ -8,9 +8,6 @@ This repository contains TripleA project documentation.
 
 If you are looking for a way to contribute to the TripleA project, please read [Contribute to TripleA](contribute.md).
 
-It is a goal to have all TripleA documentation in the '/docs' folder.
-
-Documentation is broadly organized by two top level folders, first by audience, second by documentation type.
 
 ## Documentation Audience
 
