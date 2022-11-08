@@ -16,6 +16,38 @@
 - Use a feature-branch workflow, see: [typical git workflow](reference/typical-git-workflow.md))
 - Submit pull request, see: [pull requests process](../project/pull-requests.md).
 
+
+## Add a github access token to `gradle.properties`
+
+Add the following two lines to `.gradle/gradle.properties` (located in your home folder):
+```
+triplea.github.username=[username]
+triplea.github.access.token=[access_token]
+```
+
+### Where to find your [username]
+
+Access your github profile from [github.com](https://github.com).
+
+Your `[username]` is printed underneath your profile picture on your github profile page
+and also in the URL of the profile page itself, eg: <https://github.com/tripleabuilderbot>
+
+![github_username_example](https://user-images.githubusercontent.com/12397753/200461095-09e234e1-a75b-45b9-9e57-00620b684fa3.png)
+
+
+### How to generate an [access_token]
+
+Access the create token page here: <https://github.com/settings/tokens>
+
+Next:
+- Click on "Generate new token (classic)"
+- Add a note, set expiration, and add 'read:packages'
+EG:
+![access-token](https://user-images.githubusercontent.com/12397753/200460441-c1f55fc8-4e9d-4952-a4a4-172ec8db5fc5.png)
+
+- Click 'create token' & place the displayed value in your `gradle.properties` file
+
+
 ## Compile and launch TripleA
 
 ```bash
