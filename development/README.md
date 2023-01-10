@@ -86,12 +86,32 @@ cd .../triplea/
 
 ## Run Formatting
 
-We use 'google java format', a plugin can be installed to IDE to properly format
-from IDE. Everything can be formatted as well from CLI:
+### Formatting via CLI
+
+Formatting can be run via CLI:
 
 ```
 ./gradew spotlessApply
 ```
+
+### Formatting via IntelliJ
+
+Install 'google-java-format' (IDEA) plugin. After install, restart IDE & enable
+google-java-format in settings.
+
+To workaround a problem, add the following to your 'idea64.vmoptions' file
+(eg: ./.config/JetBrains/IntelliJIdea2022.3/idea64.vmoptions)
+
+```
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED
+--add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED
+--add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED
+--add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED
+--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED
+```
+
 
 ## Launch local lobby:
 
